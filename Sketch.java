@@ -56,8 +56,8 @@ public class Sketch extends PApplet {
 
     for (int i = 0; i < SnowflakeY.length; i++) {
 
-      ellipse(SnowflakeX[i], SnowflakeY[i], 20, 20);
-      ellipse(Snowflake2X[i], Snowflake2Y[i], 10, 10);
+      ellipse(SnowflakeX[i], SnowflakeY[i], 10, 10);
+      ellipse(Snowflake2X[i], Snowflake2Y[i], 5, 5);
       //ellipse(SnowflakeX[i]+randomNum, SnowflakeY[i]+25, 10, 10);
       //ellipse(SnowflakeX[i]*randomNum, SnowflakeY[i]-25, 5, 5);
 
@@ -95,8 +95,8 @@ public class Sketch extends PApplet {
         holder2 = Snowflake2X[i];
         place = holder/25;
         place2 = holder2/25;
-        counter[(int)place] = counter[(int)place] + 0.1;
-        counter[(int)place2] = counter[(int)place2] + 0.1;
+        counter[(int)place] = counter[(int)place] + 0.05;
+        counter[(int)place2] = counter[(int)place2] + 0.05;
       }
     }
 
